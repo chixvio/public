@@ -1,0 +1,81 @@
+
+dataset:
+    name: Sales_SpecialDeals
+    description: Staging table SpecialDeals
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: SpecialDealID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: StockItemID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 3            
+    name: CustomerID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 4            
+    name: BuyingGroupID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 5            
+    name: CustomerCategoryID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 6            
+    name: StockGroupID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 7            
+    name: DealDescription            
+    data_type: nvarchar            
+    length: 30                                                            
+            
+  - ordinal: 8            
+    name: StartDate            
+    data_type: date                                                                        
+            
+  - ordinal: 9            
+    name: EndDate            
+    data_type: date                                                                        
+            
+  - ordinal: 10            
+    name: DiscountAmount            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2            
+    is_nullable: true                        
+            
+  - ordinal: 11            
+    name: DiscountPercentage            
+    data_type: decimal                        
+    precision: 18            
+    scale: 3            
+    is_nullable: true                        
+            
+  - ordinal: 12            
+    name: UnitPrice            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2            
+    is_nullable: true                        
+            
+  - ordinal: 13            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 14            
+    name: LastEditedWhen            
+    data_type: datetime2                                                                        
+            

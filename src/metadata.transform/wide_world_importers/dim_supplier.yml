@@ -1,0 +1,48 @@
+dataset:
+    name: supplier
+    description: The Supplier table
+    enabled: true
+    type: dimension
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: Supplier Key
+    data_type: int
+    is_primary_key: True
+  
+  - ordinal: 2
+    name: WWI Supplier ID
+    data_type: int
+    is_natural_key: True
+  
+  - ordinal: 3
+    name: Supplier
+    data_type: nvarchar
+    length: 100
+  
+  - ordinal: 4
+    name: Category
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 5
+    name: Primary Contact
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 6
+    name: Supplier Reference
+    data_type: nvarchar
+    length: 20
+  
+  - ordinal: 7
+    name: Payment Days
+    data_type: int
+  
+  - ordinal: 8
+    name: Postal Code
+    data_type: nvarchar
+    length: 10
+  

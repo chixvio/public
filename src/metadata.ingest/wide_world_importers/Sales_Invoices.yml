@@ -1,0 +1,130 @@
+
+dataset:
+    name: Sales_Invoices
+    description: Staging table Invoices
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: InvoiceID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: CustomerID            
+    data_type: int                                                                        
+            
+  - ordinal: 3            
+    name: BillToCustomerID            
+    data_type: int                                                                        
+            
+  - ordinal: 4            
+    name: OrderID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 5            
+    name: DeliveryMethodID            
+    data_type: int                                                                        
+            
+  - ordinal: 6            
+    name: ContactPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 7            
+    name: AccountsPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 8            
+    name: SalespersonPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 9            
+    name: PackedByPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 10            
+    name: InvoiceDate            
+    data_type: date                                                                        
+            
+  - ordinal: 11            
+    name: CustomerPurchaseOrderNumber            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 12            
+    name: IsCreditNote            
+    data_type: bit                                                                        
+            
+  - ordinal: 13            
+    name: CreditNoteReason            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 14            
+    name: Comments            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 15            
+    name: DeliveryInstructions            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 16            
+    name: InternalComments            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 17            
+    name: TotalDryItems            
+    data_type: int                                                                        
+            
+  - ordinal: 18            
+    name: TotalChillerItems            
+    data_type: int                                                                        
+            
+  - ordinal: 19            
+    name: DeliveryRun            
+    data_type: nvarchar            
+    length: 5                                    
+    is_nullable: true                        
+            
+  - ordinal: 20            
+    name: RunPosition            
+    data_type: nvarchar            
+    length: 5                                    
+    is_nullable: true                        
+            
+  - ordinal: 21            
+    name: ReturnedDeliveryData            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 22            
+    name: ConfirmedDeliveryTime            
+    data_type: datetime2                                                
+    is_nullable: true                        
+            
+  - ordinal: 23            
+    name: ConfirmedReceivedBy            
+    data_type: nvarchar            
+    length: 4000                                    
+    is_nullable: true                        
+            
+  - ordinal: 24            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 25            
+    name: LastEditedWhen            
+    data_type: datetime2                                                                        
+            

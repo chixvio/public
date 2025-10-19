@@ -1,0 +1,84 @@
+
+dataset:
+    name: Purchasing_SupplierTransactions
+    description: Staging table SupplierTransactions
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: SupplierTransactionID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: SupplierID            
+    data_type: int                                                                        
+            
+  - ordinal: 3            
+    name: TransactionTypeID            
+    data_type: int                                                                        
+            
+  - ordinal: 4            
+    name: PurchaseOrderID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 5            
+    name: PaymentMethodID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 6            
+    name: SupplierInvoiceNumber            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 7            
+    name: TransactionDate            
+    data_type: date                                                                        
+            
+  - ordinal: 8            
+    name: AmountExcludingTax            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2                                    
+            
+  - ordinal: 9            
+    name: TaxAmount            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2                                    
+            
+  - ordinal: 10            
+    name: TransactionAmount            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2                                    
+            
+  - ordinal: 11            
+    name: OutstandingBalance            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2                                    
+            
+  - ordinal: 12            
+    name: FinalizationDate            
+    data_type: date                                                
+    is_nullable: true                        
+            
+  - ordinal: 13            
+    name: IsFinalized            
+    data_type: bit                                                
+    is_nullable: true                        
+            
+  - ordinal: 14            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 15            
+    name: LastEditedWhen            
+    data_type: datetime2                                                                        
+            

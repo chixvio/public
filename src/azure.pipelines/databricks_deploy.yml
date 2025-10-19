@@ -1,0 +1,44 @@
+trigger:
+  branches:
+    include:
+      - main
+      - develop
+
+# Optional: PR validation
+pr:
+  branches:
+    include:
+      - feature/*
+
+variables:
+  - name: DatabricksHost
+    value: "$(DATABRICKS_HOST)"      # Set as variable or from Library group
+  - name: DatabricksToken
+    value: "$(DATABRICKS_TOKEN)"     # Mark as secret in DevOps
+  - name: Environment
+    value: "dev"                     # Change at runtime or per stage
+
+stages:
+  - stage: Deploy
+    displayName: "Deploy Databricks Bundle"
+    jobs:
+      - job: DeployJob
+        displayName: "Execute Databricks Deployment"
+        pool:
+          vmImage: "windows-latest"
+
+        steps:
+          - checkout: self
+
+          - task: PowerShell@2
+            displayName: "Run Databricks Deployment Script"
+            inputs:
+              targetType: "filePath"
+              filePath: "../../../code/deploy_databricks.ps1"
+              arguments: >
+                -DatabricksHost $(DatabricksHost)
+                -DatabricksToken $(DatabricksToken)
+                -Environment $(Environment)
+              pwsh: true
+              errorActionPreference: "stop"
+              failOnStderr: true

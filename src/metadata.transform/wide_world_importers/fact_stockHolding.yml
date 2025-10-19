@@ -1,0 +1,61 @@
+dataset:
+    name: stock_holding
+    description: The Stock Holding table
+    enabled: true
+    type: fact
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: Stock Holding Key
+    data_type: bigint
+    is_primary_key: True
+    source_dataset: wide_world_importers.Cities
+    source_column: Id
+  
+  - ordinal: 2
+    name: Stock Item Key
+    data_type: int
+    source_dataset: wide_world_importers.Cities
+    source_column: Id
+  
+  - ordinal: 3
+    name: Quantity On Hand
+    data_type: int
+    source_dataset: wide_world_importers.Cities
+    source_column: Id
+  
+  - ordinal: 4
+    name: Bin Location
+    data_type: nvarchar
+    length: 20
+    source_dataset: wide_world_importers.Cities
+    source_column: Id
+  
+  - ordinal: 5
+    name: Last Stocktake Quantity
+    data_type: int
+    source_dataset: wide_world_importers.Cities
+    source_column: Id
+  
+  - ordinal: 6
+    name: Last Cost Price
+    data_type: decimal
+    precision: 18
+    scale: 2
+    source_dataset: wide_world_importers.Cities
+    source_column: Id
+  
+  - ordinal: 7
+    name: Reorder Level
+    data_type: int
+    source_dataset: wide_world_importers.Cities
+    source_column: Id
+  
+  - ordinal: 8
+    name: Target Stock Level
+    data_type: int
+    source_dataset: wide_world_importers.Cities
+    source_column: Id
+  

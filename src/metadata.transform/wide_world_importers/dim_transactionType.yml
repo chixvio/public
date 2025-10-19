@@ -1,0 +1,24 @@
+dataset:
+    name: transaction_type
+    description: The Transaction Type table
+    enabled: true
+    type: dimension
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: Transaction Type Key
+    data_type: int
+    is_primary_key: True
+  
+  - ordinal: 2
+    name: WWI Transaction Type ID
+    data_type: int
+    is_natural_key: True
+  
+  - ordinal: 3
+    name: Transaction Type
+    data_type: nvarchar
+    length: 50
+  

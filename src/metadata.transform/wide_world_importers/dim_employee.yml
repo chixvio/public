@@ -1,0 +1,33 @@
+dataset:
+    name: employee
+    description: The Employee table
+    enabled: true
+    type: dimension
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: Employee Key
+    data_type: int
+    is_primary_key: True
+  
+  - ordinal: 2
+    name: WWI Employee ID
+    data_type: int
+    is_natural_key: True
+  
+  - ordinal: 3
+    name: Employee
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 4
+    name: Preferred Name
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 5
+    name: Is Salesperson
+    data_type: bit
+  

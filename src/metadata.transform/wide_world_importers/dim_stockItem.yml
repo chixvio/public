@@ -1,0 +1,94 @@
+dataset:
+    name: stock_item
+    description: The Stock Item table
+    enabled: true
+    type: dimension
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: Stock Item Key
+    data_type: int
+    is_primary_key: True
+  
+  - ordinal: 2
+    name: WWI Stock Item ID
+    data_type: int
+    is_natural_key: True
+  
+  - ordinal: 3
+    name: Stock Item
+    data_type: nvarchar
+    length: 100
+  
+  - ordinal: 4
+    name: Color
+    data_type: nvarchar
+    length: 20
+    is_nullable: true
+  
+  - ordinal: 5
+    name: Selling Package
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 6
+    name: Buying Package
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 7
+    name: Brand
+    data_type: nvarchar
+    length: 50
+    is_nullable: true
+  
+  - ordinal: 8
+    name: Size
+    data_type: nvarchar
+    length: 20
+    is_nullable: true
+  
+  - ordinal: 9
+    name: Lead Time Days
+    data_type: int
+  
+  - ordinal: 10
+    name: Quantity Per Outer
+    data_type: int
+  
+  - ordinal: 11
+    name: Is Chiller Stock
+    data_type: bit
+  
+  - ordinal: 12
+    name: Barcode
+    data_type: nvarchar
+    length: 50
+    is_nullable: true
+  
+  - ordinal: 13
+    name: Tax Rate
+    data_type: decimal
+    precision: 18
+    scale: 3
+  
+  - ordinal: 14
+    name: Unit Price
+    data_type: decimal
+    precision: 18
+    scale: 2
+  
+  - ordinal: 15
+    name: Recommended Retail Price
+    data_type: decimal
+    precision: 18
+    scale: 2
+  
+  - ordinal: 16
+    name: Typical Weight Per Unit
+    data_type: decimal
+    precision: 18
+    scale: 3
+  

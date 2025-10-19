@@ -1,0 +1,62 @@
+dataset:
+    name: city
+    description: The City table
+    enabled: true
+    type: dimension
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: City Key
+    data_type: int
+    is_primary_key: True
+  
+  - ordinal: 2
+    name: WWI City ID
+    data_type: int
+    is_natural_key: True
+  
+  - ordinal: 3
+    name: City
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 4
+    name: State Province
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 5
+    name: Country
+    data_type: nvarchar
+    length: 60
+  
+  - ordinal: 6
+    name: Continent
+    data_type: nvarchar
+    length: 30
+  
+  - ordinal: 7
+    name: Sales Territory
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 8
+    name: Region
+    data_type: nvarchar
+    length: 30
+  
+  - ordinal: 9
+    name: Subregion
+    data_type: nvarchar
+    length: 30
+  
+  - ordinal: 10
+    name: Location
+    data_type: nvarchar
+    length: -1
+  
+  - ordinal: 11
+    name: Latest Recorded Population
+    data_type: bigint

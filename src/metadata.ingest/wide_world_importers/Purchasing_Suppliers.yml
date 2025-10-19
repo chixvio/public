@@ -1,0 +1,155 @@
+
+dataset:
+    name: Purchasing_Suppliers
+    description: Staging table Suppliers
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: SupplierID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: SupplierName            
+    data_type: nvarchar            
+    length: 100                                                            
+            
+  - ordinal: 3            
+    name: SupplierCategoryID            
+    data_type: int                                                                        
+            
+  - ordinal: 4            
+    name: PrimaryContactPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 5            
+    name: AlternateContactPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 6            
+    name: DeliveryMethodID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 7            
+    name: DeliveryCityID            
+    data_type: int                                                                        
+            
+  - ordinal: 8            
+    name: PostalCityID            
+    data_type: int                                                                        
+            
+  - ordinal: 9            
+    name: SupplierReference            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 10            
+    name: BankAccountName            
+    data_type: nvarchar            
+    length: 50                                    
+    is_nullable: true                        
+            
+  - ordinal: 11            
+    name: BankAccountBranch            
+    data_type: nvarchar            
+    length: 50                                    
+    is_nullable: true                        
+            
+  - ordinal: 12            
+    name: BankAccountCode            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 13            
+    name: BankAccountNumber            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 14            
+    name: BankInternationalCode            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 15            
+    name: PaymentDays            
+    data_type: int                                                                        
+            
+  - ordinal: 16            
+    name: InternalComments            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 17            
+    name: PhoneNumber            
+    data_type: nvarchar            
+    length: 20                                                            
+            
+  - ordinal: 18            
+    name: FaxNumber            
+    data_type: nvarchar            
+    length: 20                                                            
+            
+  - ordinal: 19            
+    name: WebsiteURL            
+    data_type: nvarchar            
+    length: 256                                                            
+            
+  - ordinal: 20            
+    name: DeliveryAddressLine1            
+    data_type: nvarchar            
+    length: 60                                                            
+            
+  - ordinal: 21            
+    name: DeliveryAddressLine2            
+    data_type: nvarchar            
+    length: 60                                    
+    is_nullable: true                        
+            
+  - ordinal: 22            
+    name: DeliveryPostalCode            
+    data_type: nvarchar            
+    length: 10                                                            
+            
+  - ordinal: 23            
+    name: DeliveryLocation            
+    data_type: geography            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 24            
+    name: PostalAddressLine1            
+    data_type: nvarchar            
+    length: 60                                                            
+            
+  - ordinal: 25            
+    name: PostalAddressLine2            
+    data_type: nvarchar            
+    length: 60                                    
+    is_nullable: true                        
+            
+  - ordinal: 26            
+    name: PostalPostalCode            
+    data_type: nvarchar            
+    length: 10                                                            
+            
+  - ordinal: 27            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 28            
+    name: ValidFrom            
+    data_type: datetime2                                                                        
+            
+  - ordinal: 29            
+    name: ValidTo            
+    data_type: datetime2                                                                        
+            

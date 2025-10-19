@@ -1,0 +1,46 @@
+
+dataset:
+    name: Application_Cities
+    description: Staging table Cities
+    enabled: true
+    type: ingestion
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: CityID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: CityName            
+    data_type: nvarchar            
+    length: 50                                                            
+            
+  - ordinal: 3            
+    name: StateProvinceID            
+    data_type: int                                                                        
+            
+  - ordinal: 4            
+    name: Location            
+    data_type: geography            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 5            
+    name: LatestRecordedPopulation            
+    data_type: bigint                                                
+    is_nullable: true                        
+            
+  - ordinal: 6            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 7            
+    name: ValidFrom            
+    data_type: datetime2                                                                        
+            
+  - ordinal: 8            
+    name: ValidTo            
+    data_type: datetime2                                                                        
+            

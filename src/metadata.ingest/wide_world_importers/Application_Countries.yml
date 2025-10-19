@@ -1,0 +1,79 @@
+
+dataset:
+    name: Application_Countries
+    description: Staging table Countries
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: CountryID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: CountryName            
+    data_type: nvarchar            
+    length: 60                                                            
+            
+  - ordinal: 3            
+    name: FormalName            
+    data_type: nvarchar            
+    length: 60                                                            
+            
+  - ordinal: 4            
+    name: IsoAlpha3Code            
+    data_type: nvarchar            
+    length: 3                                    
+    is_nullable: true                        
+            
+  - ordinal: 5            
+    name: IsoNumericCode            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 6            
+    name: CountryType            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 7            
+    name: LatestRecordedPopulation            
+    data_type: bigint                                                
+    is_nullable: true                        
+            
+  - ordinal: 8            
+    name: Continent            
+    data_type: nvarchar            
+    length: 30                                                            
+            
+  - ordinal: 9            
+    name: Region            
+    data_type: nvarchar            
+    length: 30                                                            
+            
+  - ordinal: 10            
+    name: Subregion            
+    data_type: nvarchar            
+    length: 30                                                            
+            
+  - ordinal: 11            
+    name: Border            
+    data_type: geography            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 12            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 13            
+    name: ValidFrom            
+    data_type: datetime2                                                                        
+            
+  - ordinal: 14            
+    name: ValidTo            
+    data_type: datetime2                                                                        
+            

@@ -1,0 +1,78 @@
+dataset:
+    name: date
+    description: The Date table
+    enabled: false
+    type: dimension
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: Date Key
+    data_type: int
+    is_primary_key: True
+  
+  - ordinal: 2
+    name: Date
+    data_type: date
+  
+  - ordinal: 3
+    name: Day Number
+    data_type: int
+    is_natural_key: True
+  
+  - ordinal: 4
+    name: Day
+    data_type: nvarchar
+    length: 10
+  
+  - ordinal: 5
+    name: Month
+    data_type: nvarchar
+    length: 10
+  
+  - ordinal: 6
+    name: Short Month
+    data_type: nvarchar
+    length: 3
+  
+  - ordinal: 7
+    name: Calendar Month Number
+    data_type: int
+  
+  - ordinal: 8
+    name: Calendar Month Label
+    data_type: nvarchar
+    length: 20
+  
+  - ordinal: 9
+    name: Calendar Year
+    data_type: int
+  
+  - ordinal: 10
+    name: Calendar Year Label
+    data_type: nvarchar
+    length: 10
+  
+  - ordinal: 11
+    name: Fiscal Month Number
+    data_type: int
+  
+  - ordinal: 12
+    name: Fiscal Month Label
+    data_type: nvarchar
+    length: 20
+  
+  - ordinal: 13
+    name: Fiscal Year
+    data_type: int
+  
+  - ordinal: 14
+    name: Fiscal Year Label
+    data_type: nvarchar
+    length: 10
+  
+  - ordinal: 15
+    name: ISO Week Number
+    data_type: int
+  

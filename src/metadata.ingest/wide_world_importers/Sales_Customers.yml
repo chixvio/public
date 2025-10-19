@@ -1,0 +1,159 @@
+
+dataset:
+    name: Sales_Customers
+    description: Staging table Customers
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: CustomerID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: CustomerName            
+    data_type: nvarchar            
+    length: 100                                                            
+            
+  - ordinal: 3            
+    name: BillToCustomerID            
+    data_type: int                                                                        
+            
+  - ordinal: 4            
+    name: CustomerCategoryID            
+    data_type: int                                                                        
+            
+  - ordinal: 5            
+    name: BuyingGroupID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 6            
+    name: PrimaryContactPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 7            
+    name: AlternateContactPersonID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 8            
+    name: DeliveryMethodID            
+    data_type: int                                                                        
+            
+  - ordinal: 9            
+    name: DeliveryCityID            
+    data_type: int                                                                        
+            
+  - ordinal: 10            
+    name: PostalCityID            
+    data_type: int                                                                        
+            
+  - ordinal: 11            
+    name: CreditLimit            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2            
+    is_nullable: true                        
+            
+  - ordinal: 12            
+    name: AccountOpenedDate            
+    data_type: date                                                                        
+            
+  - ordinal: 13            
+    name: StandardDiscountPercentage            
+    data_type: decimal                        
+    precision: 18            
+    scale: 3                                    
+            
+  - ordinal: 14            
+    name: IsStatementSent            
+    data_type: bit                                                                        
+            
+  - ordinal: 15            
+    name: IsOnCreditHold            
+    data_type: bit                                                                        
+            
+  - ordinal: 16            
+    name: PaymentDays            
+    data_type: int                                                                        
+            
+  - ordinal: 17            
+    name: PhoneNumber            
+    data_type: nvarchar            
+    length: 20                                                            
+            
+  - ordinal: 18            
+    name: FaxNumber            
+    data_type: nvarchar            
+    length: 20                                                            
+            
+  - ordinal: 19            
+    name: DeliveryRun            
+    data_type: nvarchar            
+    length: 5                                    
+    is_nullable: true                        
+            
+  - ordinal: 20            
+    name: RunPosition            
+    data_type: nvarchar            
+    length: 5                                    
+    is_nullable: true                        
+            
+  - ordinal: 21            
+    name: WebsiteURL            
+    data_type: nvarchar            
+    length: 256                                                            
+            
+  - ordinal: 22            
+    name: DeliveryAddressLine1            
+    data_type: nvarchar            
+    length: 60                                                            
+            
+  - ordinal: 23            
+    name: DeliveryAddressLine2            
+    data_type: nvarchar            
+    length: 60                                    
+    is_nullable: true                        
+            
+  - ordinal: 24            
+    name: DeliveryPostalCode            
+    data_type: nvarchar            
+    length: 10                                                            
+            
+  - ordinal: 25            
+    name: DeliveryLocation            
+    data_type: geography            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 26            
+    name: PostalAddressLine1            
+    data_type: nvarchar            
+    length: 60                                                            
+            
+  - ordinal: 27            
+    name: PostalAddressLine2            
+    data_type: nvarchar            
+    length: 60                                    
+    is_nullable: true                        
+            
+  - ordinal: 28            
+    name: PostalPostalCode            
+    data_type: nvarchar            
+    length: 10                                                            
+            
+  - ordinal: 29            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 30            
+    name: ValidFrom            
+    data_type: datetime2                                                                        
+            
+  - ordinal: 31            
+    name: ValidTo            
+    data_type: datetime2                                                                        
+            

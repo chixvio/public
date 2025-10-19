@@ -1,0 +1,49 @@
+dataset:
+    name: customer
+    description: The Customer table
+    enabled: true
+    type: dimension
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: Customer Key
+    data_type: int
+    is_primary_key: True
+  
+  - ordinal: 2
+    name: WWI Customer ID
+    data_type: int
+    is_natural_key: True
+  
+  - ordinal: 3
+    name: Customer
+    data_type: nvarchar
+    length: 100
+  
+  - ordinal: 4
+    name: Bill To Customer
+    data_type: nvarchar
+    length: 100
+  
+  - ordinal: 5
+    name: Category
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 6
+    name: Buying Group
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 7
+    name: Primary Contact
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 8
+    name: Postal Code
+    data_type: nvarchar
+    length: 10
+  

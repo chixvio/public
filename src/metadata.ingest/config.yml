@@ -1,0 +1,25 @@
+source_systems:
+  - name: wide_world_importers
+    type: sql_server_database
+    connection:
+      host: db.systema.com
+      port: 5432
+      database: systema_db
+      user: admin
+      password: securepassword
+    ingestion:
+      schedule: daily
+      tables:
+        - users
+        - transactions
+
+  - name: system_b
+    type: api
+    connection:
+      base_url: https://api.systemb.com/v1/
+      api_key: your_api_key_here
+    ingestion:
+      schedule: hourly
+      endpoints:
+        - /customers
+        - /orders

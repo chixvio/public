@@ -1,0 +1,60 @@
+
+dataset:
+    name: Warehouse_StockItemTransactions
+    description: Staging table StockItemTransactions
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: StockItemTransactionID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: StockItemID            
+    data_type: int                                                                        
+            
+  - ordinal: 3            
+    name: TransactionTypeID            
+    data_type: int                                                                        
+            
+  - ordinal: 4            
+    name: CustomerID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 5            
+    name: InvoiceID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 6            
+    name: SupplierID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 7            
+    name: PurchaseOrderID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 8            
+    name: TransactionOccurredWhen            
+    data_type: datetime2                                                                        
+            
+  - ordinal: 9            
+    name: Quantity            
+    data_type: decimal                        
+    precision: 18            
+    scale: 3                                    
+            
+  - ordinal: 10            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 11            
+    name: LastEditedWhen            
+    data_type: datetime2                                                                        
+            

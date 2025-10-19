@@ -1,0 +1,85 @@
+
+dataset:
+    name: Sales_Orders
+    description: Staging table Orders
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: OrderID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: CustomerID            
+    data_type: int                                                                        
+            
+  - ordinal: 3            
+    name: SalespersonPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 4            
+    name: PickedByPersonID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 5            
+    name: ContactPersonID            
+    data_type: int                                                                        
+            
+  - ordinal: 6            
+    name: BackorderOrderID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 7            
+    name: OrderDate            
+    data_type: date                                                                        
+            
+  - ordinal: 8            
+    name: ExpectedDeliveryDate            
+    data_type: date                                                                        
+            
+  - ordinal: 9            
+    name: CustomerPurchaseOrderNumber            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 10            
+    name: IsUndersupplyBackordered            
+    data_type: bit                                                                        
+            
+  - ordinal: 11            
+    name: Comments            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 12            
+    name: DeliveryInstructions            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 13            
+    name: InternalComments            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 14            
+    name: PickingCompletedWhen            
+    data_type: datetime2                                                
+    is_nullable: true                        
+            
+  - ordinal: 15            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 16            
+    name: LastEditedWhen            
+    data_type: datetime2                                                                        
+            

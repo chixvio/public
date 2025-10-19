@@ -1,0 +1,138 @@
+
+dataset:
+    name: Warehouse_StockItems
+    description: Staging table StockItems
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - ordinal: 1            
+    name: StockItemID            
+    data_type: int                                                                        
+            
+  - ordinal: 2            
+    name: StockItemName            
+    data_type: nvarchar            
+    length: 100                                                            
+            
+  - ordinal: 3            
+    name: SupplierID            
+    data_type: int                                                                        
+            
+  - ordinal: 4            
+    name: ColorID            
+    data_type: int                                                
+    is_nullable: true                        
+            
+  - ordinal: 5            
+    name: UnitPackageID            
+    data_type: int                                                                        
+            
+  - ordinal: 6            
+    name: OuterPackageID            
+    data_type: int                                                                        
+            
+  - ordinal: 7            
+    name: Brand            
+    data_type: nvarchar            
+    length: 50                                    
+    is_nullable: true                        
+            
+  - ordinal: 8            
+    name: Size            
+    data_type: nvarchar            
+    length: 20                                    
+    is_nullable: true                        
+            
+  - ordinal: 9            
+    name: LeadTimeDays            
+    data_type: int                                                                        
+            
+  - ordinal: 10            
+    name: QuantityPerOuter            
+    data_type: int                                                                        
+            
+  - ordinal: 11            
+    name: IsChillerStock            
+    data_type: bit                                                                        
+            
+  - ordinal: 12            
+    name: Barcode            
+    data_type: nvarchar            
+    length: 50                                    
+    is_nullable: true                        
+            
+  - ordinal: 13            
+    name: TaxRate            
+    data_type: decimal                        
+    precision: 18            
+    scale: 3                                    
+            
+  - ordinal: 14            
+    name: UnitPrice            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2                                    
+            
+  - ordinal: 15            
+    name: RecommendedRetailPrice            
+    data_type: decimal                        
+    precision: 18            
+    scale: 2            
+    is_nullable: true                        
+            
+  - ordinal: 16            
+    name: TypicalWeightPerUnit            
+    data_type: decimal                        
+    precision: 18            
+    scale: 3                                    
+            
+  - ordinal: 17            
+    name: MarketingComments            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 18            
+    name: InternalComments            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 19            
+    name: Photo            
+    data_type: varbinary            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 20            
+    name: CustomFields            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 21            
+    name: Tags            
+    data_type: nvarchar            
+    length: -1                                    
+    is_nullable: true                        
+            
+  - ordinal: 22            
+    name: SearchDetails            
+    data_type: nvarchar            
+    length: -1                                                            
+            
+  - ordinal: 23            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - ordinal: 24            
+    name: ValidFrom            
+    data_type: datetime2                                                                        
+            
+  - ordinal: 25            
+    name: ValidTo            
+    data_type: datetime2                                                                        
+            

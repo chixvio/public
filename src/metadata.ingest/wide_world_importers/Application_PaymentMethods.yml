@@ -1,0 +1,31 @@
+
+dataset:
+    name: Application_PaymentMethods
+    description: Staging table PaymentMethods
+    enabled: true
+    type: staging
+    load_sytle: default
+    load_method: default
+
+columns:
+  - sort_order: 1            
+    name: PaymentMethodID            
+    data_type: int                                                                        
+            
+  - sort_order: 2            
+    name: PaymentMethodName            
+    data_type: nvarchar            
+    length: 50                                                            
+            
+  - sort_order: 3            
+    name: LastEditedBy            
+    data_type: int                                                                        
+            
+  - sort_order: 4            
+    name: ValidFrom            
+    data_type: datetime2                                                                        
+            
+  - sort_order: 5            
+    name: ValidTo            
+    data_type: datetime2                                                                        
+            

@@ -1,0 +1,51 @@
+dataset:
+    name: purchase
+    description: The Purchase table
+    enabled: true
+    type: fact
+    load_style: default
+    load_method: default
+
+columns:
+  - ordinal: 1
+    name: Purchase Key
+    data_type: bigint
+    is_primary_key: True
+  
+  - ordinal: 2
+    name: Date Key
+    data_type: int
+  
+  - ordinal: 3
+    name: Supplier Key
+    data_type: int
+  
+  - ordinal: 4
+    name: Stock Item Key
+    data_type: int
+  
+  - ordinal: 5
+    name: WWI Purchase Order ID
+    data_type: int
+  
+  - ordinal: 6
+    name: Ordered Outers
+    data_type: int
+  
+  - ordinal: 7
+    name: Ordered Quantity
+    data_type: int
+  
+  - ordinal: 8
+    name: Received Outers
+    data_type: int
+  
+  - ordinal: 9
+    name: Package
+    data_type: nvarchar
+    length: 50
+  
+  - ordinal: 10
+    name: Is Order Finalized
+    data_type: bit
+  

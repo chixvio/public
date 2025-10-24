@@ -1,0 +1,988 @@
+{
+    "players": [
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Patterson",
+                "display": "Anthony Patterson",
+                "first": "Anthony"
+            },
+            "shirtNum": 1,
+            "weight": 77,
+            "dates": {
+                "joinedClub": "2018-10-09",
+                "birth": "2000-05-10"
+            },
+            "id": "232571",
+            "position": "Goalkeeper",
+            "preferredFoot": "Right",
+            "height": 189
+        },
+        {
+            "country": {
+                "isoCode": "CM",
+                "country": "Cameroon",
+                "demonym": "Cameroonian"
+            },
+            "loan": 0,
+            "countryOfBirth": "Cameroon",
+            "name": {
+                "last": "Nna Noukeu",
+                "display": "Blondy Nna Noukeu",
+                "first": "Blondy"
+            },
+            "shirtNum": 16,
+            "weight": 70,
+            "dates": {
+                "joinedClub": "2024-08-02",
+                "birth": "2001-05-31"
+            },
+            "id": "490000",
+            "position": "Goalkeeper",
+            "preferredFoot": "Right",
+            "height": 184
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Moore",
+                "display": "Simon Moore",
+                "first": "Simon"
+            },
+            "shirtNum": 21,
+            "weight": 83,
+            "dates": {
+                "joinedClub": "2024-07-01",
+                "birth": "1990-05-19"
+            },
+            "id": "74854",
+            "position": "Goalkeeper",
+            "preferredFoot": "Right",
+            "height": 191
+        },
+        {
+            "country": {
+                "isoCode": "NL",
+                "country": "Netherlands",
+                "demonym": "Dutch"
+            },
+            "loan": 0,
+            "countryOfBirth": "Netherlands",
+            "name": {
+                "last": "Roefs",
+                "display": "Robin Roefs",
+                "first": "Robin"
+            },
+            "shirtNum": 22,
+            "weight": 72,
+            "dates": {
+                "joinedClub": "2025-08-01",
+                "birth": "2003-01-17"
+            },
+            "id": "498016",
+            "position": "Goalkeeper",
+            "preferredFoot": "Right",
+            "height": 193
+        },
+        {
+            "country": {
+                "isoCode": "FR",
+                "country": "France",
+                "demonym": "French"
+            },
+            "loan": 0,
+            "countryOfBirth": "France",
+            "name": {
+                "last": "Pembélé",
+                "display": "Timothée Pembélé",
+                "first": "Timothée"
+            },
+            "weight": 80,
+            "dates": {
+                "joinedClub": "2023-09-01",
+                "birth": "2002-09-09"
+            },
+            "id": "465702",
+            "position": "Defender",
+            "preferredFoot": "Right",
+            "height": 183
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "Republic of Ireland",
+            "name": {
+                "last": "Cirkin",
+                "display": "Dennis Cirkin",
+                "first": "Dennis"
+            },
+            "shirtNum": 3,
+            "weight": 78,
+            "dates": {
+                "joinedClub": "2021-08-11",
+                "birth": "2002-04-06"
+            },
+            "id": "461195",
+            "position": "Defender",
+            "preferredFoot": "Left",
+            "height": 182
+        },
+        {
+            "country": {
+                "isoCode": "GB-NIR",
+                "country": "Northern Ireland",
+                "demonym": "Northern Irish"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Ballard",
+                "display": "Dan Ballard",
+                "first": "Dan"
+            },
+            "shirtNum": 5,
+            "weight": 85,
+            "dates": {
+                "joinedClub": "2022-07-01",
+                "birth": "1999-09-22"
+            },
+            "id": "223827",
+            "position": "Defender",
+            "preferredFoot": "Right",
+            "height": 187
+        },
+        {
+            "country": {
+                "isoCode": "NL",
+                "country": "Netherlands",
+                "demonym": "Dutch"
+            },
+            "loan": 1,
+            "countryOfBirth": "Netherlands",
+            "name": {
+                "last": "Geertruida",
+                "display": "Lutsharel Geertruida",
+                "first": "Lutsharel"
+            },
+            "shirtNum": 6,
+            "weight": 69,
+            "dates": {
+                "joinedClub": "2025-09-01",
+                "birth": "2000-07-18"
+            },
+            "id": "247955",
+            "position": "Defender",
+            "preferredFoot": "Right",
+            "height": 184
+        },
+        {
+            "country": {
+                "isoCode": "PY",
+                "country": "Paraguay",
+                "demonym": "Paraguayan"
+            },
+            "loan": 0,
+            "countryOfBirth": "Paraguay",
+            "name": {
+                "last": "Alderete",
+                "display": "Omar Alderete",
+                "first": "Omar"
+            },
+            "shirtNum": 15,
+            "weight": 77,
+            "dates": {
+                "joinedClub": "2025-08-12",
+                "birth": "1996-12-26"
+            },
+            "id": "201895",
+            "position": "Defender",
+            "preferredFoot": "Left",
+            "height": 188
+        },
+        {
+            "country": {
+                "isoCode": "MZ",
+                "country": "Mozambique",
+                "demonym": "Mozambican"
+            },
+            "loan": 0,
+            "countryOfBirth": "Mozambique",
+            "name": {
+                "last": "Isnard Mandava",
+                "display": "Reinildo Mandava",
+                "first": "Reinildo"
+            },
+            "shirtNum": 17,
+            "weight": 73,
+            "dates": {
+                "joinedClub": "2025-07-08",
+                "birth": "1994-01-21"
+            },
+            "id": "434399",
+            "position": "Defender",
+            "preferredFoot": "Left",
+            "height": 183
+        },
+        {
+            "country": {
+                "isoCode": "FR",
+                "country": "France",
+                "demonym": "French"
+            },
+            "loan": 0,
+            "countryOfBirth": "France",
+            "name": {
+                "last": "Mukiele",
+                "display": "Nordi Mukiele",
+                "first": "Nordi"
+            },
+            "shirtNum": 20,
+            "weight": 84,
+            "dates": {
+                "joinedClub": "2025-08-17",
+                "birth": "1997-11-01"
+            },
+            "id": "200834",
+            "position": "Defender",
+            "preferredFoot": "Right",
+            "height": 187
+        },
+        {
+            "country": {
+                "isoCode": "CD",
+                "country": "DR Congo",
+                "demonym": "Congolese"
+            },
+            "loan": 0,
+            "countryOfBirth": "France",
+            "name": {
+                "last": "Masuaku",
+                "display": "Arthur Masuaku",
+                "first": "Arthur"
+            },
+            "shirtNum": 26,
+            "weight": 80,
+            "dates": {
+                "joinedClub": "2025-08-10",
+                "birth": "1993-11-07"
+            },
+            "id": "105717",
+            "position": "Defender",
+            "preferredFoot": "Left",
+            "height": 179
+        },
+        {
+            "country": {
+                "isoCode": "GB-NIR",
+                "country": "Northern Ireland",
+                "demonym": "Northern Irish"
+            },
+            "loan": 0,
+            "countryOfBirth": "Northern Ireland",
+            "name": {
+                "last": "Hume",
+                "display": "Trai Hume",
+                "first": "Trai"
+            },
+            "shirtNum": 32,
+            "weight": 75,
+            "dates": {
+                "joinedClub": "2022-01-04",
+                "birth": "2002-03-18"
+            },
+            "id": "487676",
+            "position": "Defender",
+            "preferredFoot": "Right",
+            "height": 180
+        },
+        {
+            "country": {
+                "isoCode": "NO",
+                "country": "Norway",
+                "demonym": "Norwegian"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Hjelde",
+                "display": "Leo Hjelde",
+                "first": "Leo"
+            },
+            "shirtNum": 33,
+            "weight": 75,
+            "dates": {
+                "joinedClub": "2024-01-30",
+                "birth": "2003-08-26"
+            },
+            "id": "477547",
+            "position": "Defender",
+            "preferredFoot": "Left",
+            "height": 190
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Johnson",
+                "display": "Zak Johnson",
+                "first": "Zak"
+            },
+            "shirtNum": 41,
+            "weight": 78,
+            "dates": {
+                "joinedClub": "2021-10-12",
+                "birth": "2004-07-30"
+            },
+            "id": "514613",
+            "position": "Defender",
+            "preferredFoot": "Right",
+            "height": 183
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Alese",
+                "display": "Aji Alese",
+                "first": "Aji"
+            },
+            "shirtNum": 42,
+            "weight": 80,
+            "dates": {
+                "joinedClub": "2022-07-15",
+                "birth": "2001-01-17"
+            },
+            "id": "220684",
+            "position": "Defender",
+            "preferredFoot": "Right",
+            "height": 192
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Anderson",
+                "display": "Joe Anderson",
+                "first": "Joe"
+            },
+            "shirtNum": 45,
+            "weight": 81,
+            "dates": {
+                "joinedClub": "2023-01-31",
+                "birth": "2001-02-06"
+            },
+            "id": "232820",
+            "position": "Defender",
+            "preferredFoot": "Left",
+            "height": 188
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Jones",
+                "display": "Jenson Jones",
+                "first": "Jenson"
+            },
+            "shirtNum": 51,
+            "dates": {
+                "joinedClub": "2025-08-24",
+                "birth": "2006-06-26"
+            },
+            "id": "232356",
+            "position": "Defender",
+            "preferredFoot": "Right",
+            "height": 182
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Matete",
+                "display": "Jay Matete",
+                "first": "Jay"
+            },
+            "weight": 61,
+            "dates": {
+                "joinedClub": "2022-01-31",
+                "birth": "2001-02-11"
+            },
+            "id": "493837",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "height": 176
+        },
+        {
+            "country": {
+                "isoCode": "FR",
+                "country": "France",
+                "demonym": "French"
+            },
+            "loan": 0,
+            "countryOfBirth": "France",
+            "name": {
+                "last": "Ba",
+                "display": "Abdoullah Ba",
+                "first": "Abdoullah"
+            },
+            "weight": 70,
+            "dates": {
+                "joinedClub": "2022-08-31",
+                "birth": "2003-07-31"
+            },
+            "id": "477851",
+            "position": "Midfielder",
+            "preferredFoot": "Both",
+            "height": 180
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Neil",
+                "display": "Dan Neil",
+                "first": "Dan"
+            },
+            "shirtNum": 4,
+            "weight": 62,
+            "dates": {
+                "joinedClub": "2018-11-01",
+                "birth": "2001-12-13"
+            },
+            "id": "223336",
+            "position": "Midfielder",
+            "preferredFoot": "Left",
+            "height": 185
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Rigg",
+                "display": "Chris Rigg",
+                "first": "Chris"
+            },
+            "shirtNum": 11,
+            "weight": 65,
+            "dates": {
+                "joinedClub": "2022-12-31",
+                "birth": "2007-06-18"
+            },
+            "id": "554197",
+            "position": "Midfielder",
+            "preferredFoot": "Left",
+            "height": 177
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "O'Nien",
+                "display": "Luke O'Nien",
+                "first": "Luke"
+            },
+            "shirtNum": 13,
+            "weight": 74,
+            "dates": {
+                "joinedClub": "2018-07-30",
+                "birth": "1994-11-21"
+            },
+            "id": "167512",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "height": 174
+        },
+        {
+            "country": {
+                "isoCode": "SN",
+                "country": "Senegal",
+                "demonym": "Senegalese"
+            },
+            "loan": 0,
+            "countryOfBirth": "Senegal",
+            "name": {
+                "last": "Diarra",
+                "display": "Habib Diarra",
+                "first": "Habib"
+            },
+            "shirtNum": 19,
+            "weight": 74,
+            "dates": {
+                "joinedClub": "2025-07-01",
+                "birth": "2004-01-03"
+            },
+            "id": "547027",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "height": 179
+        },
+        {
+            "country": {
+                "isoCode": "CD",
+                "country": "DR Congo",
+                "demonym": "Congolese"
+            },
+            "loan": 0,
+            "countryOfBirth": "Belgium",
+            "name": {
+                "last": "Sadiki",
+                "display": "Noah Sadiki",
+                "first": "Noah"
+            },
+            "shirtNum": 27,
+            "weight": 58,
+            "dates": {
+                "joinedClub": "2025-07-04",
+                "birth": "2004-12-17"
+            },
+            "id": "577669",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "height": 165
+        },
+        {
+            "country": {
+                "isoCode": "FR",
+                "country": "France",
+                "demonym": "French"
+            },
+            "loan": 0,
+            "name": {
+                "last": "Le Fée",
+                "display": "Enzo Le Fée",
+                "first": "Enzo"
+            },
+            "shirtNum": 28,
+            "weight": 63,
+            "dates": {
+                "joinedClub": "2025-07-01",
+                "birth": "2000-02-03"
+            },
+            "id": "484420",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "height": 170
+        },
+        {
+            "country": {
+                "isoCode": "CH",
+                "country": "Switzerland",
+                "demonym": "Swiss"
+            },
+            "loan": 0,
+            "countryOfBirth": "Switzerland",
+            "name": {
+                "last": "Xhaka",
+                "display": "Granit Xhaka",
+                "first": "Granit"
+            },
+            "shirtNum": 34,
+            "weight": 80,
+            "dates": {
+                "joinedClub": "2025-07-30",
+                "birth": "1992-09-27"
+            },
+            "id": "84450",
+            "position": "Midfielder",
+            "preferredFoot": "Left",
+            "height": 186
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Jones",
+                "display": "Harrison Jones",
+                "first": "Harrison"
+            },
+            "shirtNum": 50,
+            "weight": 68,
+            "dates": {
+                "joinedClub": "2024-01-01",
+                "birth": "2004-12-25"
+            },
+            "id": "547410",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "height": 178
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Jones",
+                "display": "Jaydon Jones",
+                "first": "Jaydon"
+            },
+            "shirtNum": 52,
+            "dates": {
+                "joinedClub": "2025-08-24",
+                "birth": "2006-11-03"
+            },
+            "id": "571087",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "height": 175
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Whittaker",
+                "display": "Jack Whittaker",
+                "first": "Jack"
+            },
+            "shirtNum": 53,
+            "dates": {
+                "joinedClub": "2025-08-24",
+                "birth": "2006-10-14"
+            },
+            "id": "570929",
+            "position": "Midfielder"
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Middlemas",
+                "display": "Ben Middlemas",
+                "first": "Ben"
+            },
+            "shirtNum": 55,
+            "weight": 64,
+            "dates": {
+                "joinedClub": "2021-10-12",
+                "birth": "2004-12-13"
+            },
+            "id": "547415",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "height": 182
+        },
+        {
+            "country": {
+                "isoCode": "MA",
+                "country": "Morocco",
+                "demonym": "Moroccan"
+            },
+            "loan": 0,
+            "countryOfBirth": "Belgium",
+            "name": {
+                "last": "Talbi",
+                "display": "Chemsdine Talbi",
+                "first": "Chemsdine"
+            },
+            "shirtNum": 7,
+            "weight": 65,
+            "dates": {
+                "joinedClub": "2025-07-09",
+                "birth": "2005-05-09"
+            },
+            "id": "549912",
+            "position": "Forward",
+            "preferredFoot": "Right",
+            "height": 175
+        },
+        {
+            "country": {
+                "isoCode": "NL",
+                "country": "Netherlands",
+                "demonym": "Dutch"
+            },
+            "loan": 0,
+            "countryOfBirth": "Netherlands",
+            "name": {
+                "last": "Brobbey",
+                "display": "Brian Brobbey",
+                "first": "Brian"
+            },
+            "shirtNum": 9,
+            "weight": 78,
+            "dates": {
+                "joinedClub": "2025-09-01",
+                "birth": "2002-02-01"
+            },
+            "id": "441264",
+            "position": "Forward",
+            "preferredFoot": "Right",
+            "height": 180
+        },
+        {
+            "country": {
+                "isoCode": "ES",
+                "country": "Spain",
+                "demonym": "Spanish"
+            },
+            "loan": 0,
+            "countryOfBirth": "Spain",
+            "name": {
+                "last": "Mayenda",
+                "display": "Eliezer Mayenda",
+                "first": "Eliezer"
+            },
+            "shirtNum": 12,
+            "weight": 75,
+            "dates": {
+                "joinedClub": "2023-07-28",
+                "birth": "2005-05-08"
+            },
+            "id": "564406",
+            "position": "Forward",
+            "preferredFoot": "Left",
+            "height": 180
+        },
+        {
+            "country": {
+                "isoCode": "GB-ENG",
+                "country": "England",
+                "demonym": "English"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Mundle",
+                "display": "Romaine Mundle",
+                "first": "Romaine"
+            },
+            "shirtNum": 14,
+            "weight": 61,
+            "dates": {
+                "joinedClub": "2024-02-01",
+                "birth": "2003-04-24"
+            },
+            "id": "461199",
+            "position": "Forward",
+            "preferredFoot": "Right",
+            "height": 180
+        },
+        {
+            "country": {
+                "isoCode": "FR",
+                "country": "France",
+                "demonym": "French"
+            },
+            "loan": 0,
+            "countryOfBirth": "France",
+            "name": {
+                "last": "Isidor",
+                "display": "Wilson Isidor",
+                "first": "Wilson"
+            },
+            "shirtNum": 18,
+            "weight": 79,
+            "dates": {
+                "joinedClub": "2025-02-01",
+                "birth": "2000-08-27"
+            },
+            "id": "437505",
+            "position": "Forward",
+            "preferredFoot": "Right",
+            "height": 186
+        },
+        {
+            "country": {
+                "isoCode": "CI",
+                "country": "Cote d’Ivoire",
+                "demonym": "Ivorian"
+            },
+            "loan": 0,
+            "countryOfBirth": "Côte d'Ivoire",
+            "name": {
+                "last": "Adingra",
+                "display": "Simon Adingra",
+                "first": "Simon"
+            },
+            "shirtNum": 24,
+            "weight": 68,
+            "dates": {
+                "joinedClub": "2025-07-10",
+                "birth": "2002-01-01"
+            },
+            "id": "535818",
+            "position": "Forward",
+            "preferredFoot": "Right",
+            "height": 175
+        },
+        {
+            "country": {
+                "isoCode": "BF",
+                "country": "Burkina Faso",
+                "demonym": "Burkinabès"
+            },
+            "loan": 0,
+            "countryOfBirth": "Burkina Faso",
+            "name": {
+                "last": "Traoré",
+                "display": "Bertrand Traoré",
+                "first": "Bertrand"
+            },
+            "shirtNum": 25,
+            "weight": 73,
+            "dates": {
+                "joinedClub": "2025-09-01",
+                "birth": "1995-09-06"
+            },
+            "id": "110504",
+            "position": "Forward",
+            "preferredFoot": "Left",
+            "height": 181
+        },
+        {
+            "country": {
+                "isoCode": "NG",
+                "country": "Nigeria",
+                "demonym": "Nigerian"
+            },
+            "loan": 0,
+            "countryOfBirth": "Nigeria",
+            "name": {
+                "last": "Abdullahi",
+                "display": "Ahmed Abdullahi",
+                "first": "Ahmed"
+            },
+            "shirtNum": 29,
+            "weight": 75,
+            "dates": {
+                "joinedClub": "2024-08-31",
+                "birth": "2004-06-19"
+            },
+            "id": "611975",
+            "position": "Forward",
+            "preferredFoot": "Right",
+            "height": 181
+        },
+        {
+            "country": {
+                "isoCode": "CO",
+                "country": "Colombia",
+                "demonym": "Colombian"
+            },
+            "loan": 0,
+            "countryOfBirth": "England",
+            "name": {
+                "last": "Poveda",
+                "display": "Ian Poveda",
+                "first": "Ian"
+            },
+            "shirtNum": 36,
+            "weight": 64,
+            "dates": {
+                "joinedClub": "2024-07-24",
+                "birth": "2000-02-09"
+            },
+            "id": "215460",
+            "position": "Forward",
+            "preferredFoot": "Left",
+            "height": 167
+        },
+        {
+            "country": {
+                "isoCode": "UA",
+                "country": "Ukraine",
+                "demonym": "Ukrainian"
+            },
+            "loan": 0,
+            "countryOfBirth": "Ukraine",
+            "name": {
+                "last": "Tutierov",
+                "display": "Tymur Tutierov",
+                "first": "Tymur"
+            },
+            "shirtNum": 57,
+            "weight": 70,
+            "dates": {
+                "joinedClub": "2024-08-30",
+                "birth": "2005-06-11"
+            },
+            "id": "604211",
+            "position": "Forward",
+            "preferredFoot": "Right",
+            "height": 183
+        }
+    ],
+    "id": {
+        "competitionId": "8",
+        "seasonId": "2025"
+    },
+    "team": {
+        "name": "Sunderland",
+        "id": "56",
+        "shortName": "Sunderland"
+    }
+}

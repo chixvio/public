@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "actionGroupId": {
+      "type": "string",
+      "metadata": {
+        "description": "Resource ID of the Action Group to notify."
+      }
+    },
+    "threshold": {
+      "type": "int",
+      "metadata": {
+        "description": "CPU percentage threshold that triggers the alert."
+      }
+    },
+    "windowSize": {
+      "type": "string",
+      "metadata": {
+        "description": "Window size for the alert evaluation (ISO 8601 format)."
+      }
+    },
+    "frequency": {
+      "type": "string",
+      "metadata": {
+        "description": "Frequency of the alert evaluation (ISO 8601 format)."
+      }
+    },
+    "targetResourceId": { 
+      "type": "string" 
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Insights/metricAlerts",
+      "apiVersion": "2018-03-01",
+      "name": "vmCpuPercentageAlert",
+      "location": "global",
+      "properties": {
+        "description": "Alert when VM Percentage CPU exceeds threshold.",
+        "severity": 2,
+        "enabled": true,
+        "scopes": [
+          "[parameters('targetResourceId')]"
+        ],
+        "evaluationFrequency": "[parameters('frequency')]",
+        "windowSize": "[parameters('windowSize')]",
+        "criteria": {
+          "odata.type": "Microsoft.Azure.Monitor.MultipleResourceMultipleMetricCriteria",
+          "allOf": [
+            {
+              "name": "VmCpuPercentageThreshold",
+              "metricName": "Percentage CPU",
+              "metricNamespace": "",
+              "timeAggregation": "Average",
+              "operator": "GreaterThan",
+              "threshold": "[parameters('threshold')]",
+              "criterionType": "StaticThresholdCriterion"
+            }
+          ]
+        },
+        "autoMitigate": false,
+        "targetResourceType": "Microsoft.Compute/virtualMachines",
+        "actions": [
+          {
+            "actionGroupId": "[parameters('actionGroupId')]"
+          }
+        ]
+      }
+    }
+  ]
+}

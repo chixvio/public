@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Premier League Explorer</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px }
+    .team { margin-bottom: 10px }
+  </style>
+</head>
+<body>
+  <h1>Premier League Explorer</h1>
+  <div>
+    <button id="loadTeams">Load Teams</button>
+  </div>
+  <div id="teams"></div>
+
+  <script>
+    const apiBase = '/api'; // assume same origin reverse proxy; adjust when deploying
+
+    async function loadTeams(){
+      const res = await fetch(apiBase + '/teams');
+      const teams = await res.json();
+      const el = document.getElementById('teams');
+      el.innerHTML = '';
+      teams.forEach(t => {
+        const div = document.createElement('div');
+        div.className = 'team';
+        div.textContent = `${t.name} (${t.tla || ''})`;
+        el.appendChild(div);
+      });
+    }
+
+    document.getElementById('loadTeams').addEventListener('click', loadTeams);
+  </script>
+</body>
+</html>
